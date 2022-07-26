@@ -3,7 +3,7 @@
 t1 = {0,1,0,3,0}
 t2 = {0,0,2,5,1}
 t3 = {0,2,6,8}
-function toCheck (list)
+function tocheck (list)
     table.sort(list) -- 把数组从小到大排序
     local zero_num = 0
     for k,v in pairs(list) do
@@ -26,7 +26,7 @@ function toCheck (list)
       print("该表不连续")
     end
 end
-toCheck(t2)
+tocheck(t2)
 print("-----------------------------")
 
 
